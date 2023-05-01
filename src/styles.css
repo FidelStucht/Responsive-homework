@@ -1,0 +1,125 @@
+h1 {
+  text-align: var(--position);
+  font-size: 96px;
+}
+h2 {
+  text-align: var(--position);
+}
+h3 {
+  text-align: var(--position);
+  font-size: 24px;
+  opacity: 0.7;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+a {
+  cursor: pointer;
+}
+a:visited {
+  color: var(--main-color);
+}
+button {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+span {
+  display: block;
+  text-align: center;
+}
+img {
+  margin: 20px auto;
+  border-radius: 4px;
+}
+p {
+  text-align: center;
+  font-size: large;
+}
+#buttonApp {
+  background-color: var(--main-color);
+  color: white;
+  border-color: var(--main-color);
+}
+#buttons {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 20px 15px 20px 15px;
+  gap: 20px;
+}
+#contact-link {
+  background-color: var(--main-color);
+  color: white;
+}
+#about-link {
+  background-color: white;
+  color: var(--main-color);
+}
+#description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: normal;
+  justify-content: normal;
+  gap: 20px;
+  align-items: normal;
+  margin: 60px auto;
+}
+#email-adress {
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 28px;
+}
+#imageNewApp {
+  border-color: #f5f2fe;
+  border-radius: 4px;
+  background-color: #f5f2fe;
+}
+#imageNewApp:hover {
+  color: #6c63ff;
+}
+#imageWeatherApp {
+  border-color: #f5f2fe;
+  border-radius: 4px;
+  background-color: #f5f2fe;
+}
+#firstProject {
+  border-color: #f5f2fe;
+  border-radius: 4px;
+  background-color: #f5f2fe;
+}
+#aboutNew {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f2fe;
+  box-shadow: var(--box-shadow);
+}
+#aboutWeather {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f2fe;
+  box-shadow: var(--box-shadow);
+}
+#aboutPenguin {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f2fe;
+  box-shadow: var(--box-shadow);
+}
+:root {
+  --position: center;
+  --main-color: #6c63ff;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
